@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">uepjm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombreue">UNIDAD EDUCATIVA FISCAL "GRAL. PEDRO J. MONTERO"</string>
+    <string name="btnsesion">Iniciar Sesión</string>
+    <string name="btnNombre">Nombre</string>
+    <string name="btnApellido">Apellido</string>
+    <string name="btnEmpleados">Empleados</string>
+    <string name="btnCerrar">off</string>
+</resources>

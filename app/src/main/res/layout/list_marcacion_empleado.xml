@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:animateLayoutChanges="true"
+        app:cardBackgroundColor="#A3DF98"
+        app:cardCornerRadius="@dimen/cardview_compat_inset_shadow"
+        app:cardUseCompatPadding="true"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="5dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="405dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtNombreMe"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Nombre"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtObservacionMe"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:background="#9BCA9D"
+                android:text="observación"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtFechaMe"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:text="fecha"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
